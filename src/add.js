@@ -27,5 +27,11 @@ const unitTestExampleTwo = () => {
   console.log(add("Hello ", "world") === "Hello world" ? "Passed" : "Failed");
 };
 
+const unitTestThree = () => {
+  console.log('Test 3: adding mixed types');
+  console.log(add('1', 1) === 'Invalid input' ? 'Passed' : 'Failed');
+};
+
 unitTestExampleOne();
 unitTestExampleTwo();
+unitTestThree();
